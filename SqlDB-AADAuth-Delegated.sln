@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core-WebApi", "Core-WebApi\Core-WebApi.csproj", "{282201F9-C5D9-42A1-A65D-F2DB4DA453E3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "spa", "spa", "{76A762B2-1869-4635-9CC2-31C7A1F310BE}"
+	ProjectSection(SolutionItems) = preProject
+		spa\api.js = spa\api.js
+		spa\apiConfig.js = spa\apiConfig.js
+		spa\authConfig.js = spa\authConfig.js
+		spa\authPopup.js = spa\authPopup.js
+		spa\authRedirect.js = spa\authRedirect.js
+		spa\favicon.svg = spa\favicon.svg
+		spa\index.html = spa\index.html
+		spa\ui.js = spa\ui.js
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{282201F9-C5D9-42A1-A65D-F2DB4DA453E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{282201F9-C5D9-42A1-A65D-F2DB4DA453E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{282201F9-C5D9-42A1-A65D-F2DB4DA453E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{282201F9-C5D9-42A1-A65D-F2DB4DA453E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {63717512-C437-49B2-8CB9-CAE42C3FE816}
+	EndGlobalSection
+EndGlobal

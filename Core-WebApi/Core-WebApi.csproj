@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Core_WebApi</RootNamespace>
+    <UserSecretsId>e3c8bc99-bb12-4d48-84cf-ecbe6b4a0a3b</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Identity.Client.Extensions.Msal" Version="2.15.0" />
+    <PackageReference Include="Microsoft.Identity.Web" Version="1.0.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+  </ItemGroup>
+
+
+</Project>
